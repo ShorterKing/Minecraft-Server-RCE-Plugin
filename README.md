@@ -3,7 +3,7 @@
 ## 🌟 Overview
 This **Minecraft plugin** is a **learning tool** 📚 designed to show why you should **never** install random plugins from untrusted sources! 😱 It demonstrates a malicious behavior by:
 - 📂 Creating its own folder in the server's `plugins` directory.
-- 📥 Downloading a reverse shell executable (`Reverse_Shell.jar`) from [ivan-sincek/java-reverse-tcp][https://github.com/ivan-sincek/java-reverse-tcp/refs/heads/main/jar/Reverse_Shell.jar](https://github.com/ivan-sincek/java-reverse-tcp/), created by [ivan-sincek](https://github.com/ivan-sincek).
+- 📥 Downloading a reverse shell executable (`Reverse_Shell.jar`) from [ivan-sincek/java-reverse-tcp](https://github.com/ivan-sincek/java-reverse-tcp/refs/heads/main/jar/Reverse_Shell.jar), created by [ivan-sincek](https://github.com/ivan-sincek).
 - 🔗 Using the downloaded JAR to establish a reverse shell to a hardcoded IP and port, giving access to:
   - 🖥️ **Windows**: Spawns a `cmd.exe` shell.
   - 🐧 **Linux**: Spawns a `sh` shell.
@@ -25,7 +25,7 @@ Follow these steps to safely test the plugin in a **controlled environment**:
 
 1. **Clone the Repo** 📂:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/ShorterKing/Minecraft-Server-RCE-Plugin.git
    ```
 2. **Build the Plugin** 🔨:
    - Set up a Java environment with Minecraft server dependencies (e.g., Spigot/Paper API).
