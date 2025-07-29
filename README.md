@@ -3,7 +3,7 @@
 ## 🌟 Overview
 This **Minecraft plugin** is a **learning tool** 📚 designed to show why you should **never** install random plugins from untrusted sources! 😱 It demonstrates a malicious behavior by:
 - 📂 Creating its own folder in the server's `plugins` directory.
-- 📥 Downloading a reverse shell executable (`Reverse_Shell.jar`) from [ivan-sincek/java-reverse-tcp](https://github.com/ivan-sincek/java-reverse-tcp/refs/heads/main/jar/Reverse_Shell.jar), created by [ivan-sincek](https://github.com/ivan-sincek).
+- 📥 Downloading a reverse shell executable (`Reverse_Shell.jar`) from [ivan-sincek/java-reverse-tcp](https://github.com/ivan-sincek/java-reverse-tcp/), created by [ivan-sincek](https://github.com/ivan-sincek).
 - 🔗 Using the downloaded JAR to establish a reverse shell to a hardcoded IP and port, giving access to:
   - 🖥️ **Windows**: Spawns a `cmd.exe` shell.
   - 🐧 **Linux**: Spawns a `sh` shell.
@@ -15,7 +15,7 @@ This project is here to **teach** Minecraft server admins, developers, and playe
 
 ## ✨ Features
 - 📂 Creates a custom folder in the `plugins` directory to store downloaded files.
-- 🌐 Downloads `Reverse_Shell.jar` from [ivan-sincek/java-reverse-tcp](https://github.com/ivan-sincek/java-reverse-tcp/refs/heads/main/jar/Reverse_Shell.jar).
+- 🌐 Downloads `Reverse_Shell.jar` from [ivan-sincek/java-reverse-tcp](https://github.com/ivan-sincek/java-reverse-tcp/).
 - 🔗 Uses the downloaded JAR to establish a reverse shell to a hardcoded IP and port.
 - 🛠️ Detects the server’s OS and launches the appropriate shell (`cmd.exe` or `sh`).
 - 📦 Lightweight and easy-to-analyze code for learning.
