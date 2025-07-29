@@ -1,0 +1,4 @@
+name: ReversePlugin
+version: 1.0
+main: com.example.reverseplugin.ReversePlugin
+api-version: 1.13
