@@ -29,7 +29,7 @@ Follow these steps to safely test the plugin in a **controlled environment**:
    ```
 2. **Build the Plugin** 🔨:
    - Set up a Java environment with Minecraft server dependencies (e.g., Spigot/Paper API).
-   - Compile using Maven or Gradle. 🛠️
+   - Compile using Maven. 🛠️
 3. **Set Up a Safe Test Environment** 🧪:
    - Use a **sandboxed** or **virtualized** server (e.g., Docker, VM) to avoid risks.
    - Edit the plugin’s source code to set the IP (e.g., `127.0.0.1`) and port (e.g., `4444`) to a listener you control.
